@@ -1,0 +1,20 @@
+[package]
+name = "simple_rust_example"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+# Add your dependencies here, for example:
+# serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+# Add dependencies only used in tests, examples, and benchmarks
+
+[[bin]]
+name = "simple_rust_example"
+path = "src/main.rs"
+
+[lib]
+name = "simple_rust_example"
+path = "src/lib.rs"
